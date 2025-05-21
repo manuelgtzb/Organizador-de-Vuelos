@@ -86,6 +86,6 @@ public class VuelosController : ControllerBase {
         else {
             vuelos = collection.Find(FilterDefinition<Vuelo>.Empty).ToList();
         }
-        return Ok();
+        return Ok(vuelos);
     }
 }

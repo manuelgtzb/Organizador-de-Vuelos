@@ -35,7 +35,7 @@ public class Vuelo {
 
      [BsonElement("tipo_avion")]
 
-     public int TipoAvion {get; set;}
+     public string TipoAvion {get; set;} = string.Empty;
 
      [BsonElement("pasajeros_actuales")]
 
